@@ -4,6 +4,7 @@ using UnityEngine;
 public class CraftingPopup : MonoBehaviour
 {
     [SerializeField] private TMP_Text _levelText;
+    [SerializeField] private TMP_Text _levelUpCost;
     [SerializeField] private GameObject DisableButton;
     
     private CraftingTable _craftingTable;
@@ -13,6 +14,7 @@ public class CraftingPopup : MonoBehaviour
         _craftingTable = craftingTable;
 
         _levelText.text = $"{_craftingTable.Level} 레벨";
+        _levelUpCost.text = $"{GameDataManager.GoldBalanceGameData.GetNeedGoldRound(_craftingTable.Level)}";
 
         UpdateStars();
 
@@ -22,6 +24,19 @@ public class CraftingPopup : MonoBehaviour
     private void UpdateStars()
     {
         
+    }
+
+    public void OnClickLevelUp()
+    {
+        var needGold = GameDataManager.GoldBalanceGameData.GetNeedGoldRound(_craftingTable.Level);
+        if (IngameManager.UserDataManager.Gold < needGold)
+        {
+            return;
+        }
+
+        IngameManager.UserDataManager.Gold -= needGold;
+        _craftingTable.LevelUp();
+        SetInfo(_craftingTable);
     }
 
     public void Enable()
