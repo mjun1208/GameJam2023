@@ -1,1404 +1,529 @@
 {
-	"DataList" :[
+	"DataList":[
 		{
 			"Level": "1",
-			"NeedGold": "1",
-			"NeedGoldRound": "1",
-			"GainGold": "1",
-			"GainGoldRound": "1"
-		},
-		{
-			"Level": "2",
-			"NeedGold": "2.694467154",
-			"NeedGoldRound": "3",
-			"GainGold": "2.188587403",
-			"GainGoldRound": "2"
-		},
-		{
-			"Level": "3",
-			"NeedGold": "4.811532175",
+			"NeedGold": "5",
 			"NeedGoldRound": "5",
-			"GainGold": "3.460565054",
+			"GainGold": "3",
 			"GainGoldRound": "3"
 		},
 		{
-			"Level": "4",
-			"NeedGold": "7.260153243",
+			"Level": "2",
+			"NeedGold": "6",
+			"NeedGoldRound": "6",
+			"GainGold": "4",
+			"GainGoldRound": "4"
+		},
+		{
+			"Level": "3",
+			"NeedGold": "7",
 			"NeedGoldRound": "7",
-			"GainGold": "4.789914818",
+			"GainGold": "5",
 			"GainGoldRound": "5"
 		},
 		{
-			"Level": "5",
-			"NeedGold": "9.989117144",
-			"NeedGoldRound": "10",
-			"GainGold": "6.163623537",
+			"Level": "4",
+			"NeedGold": "8",
+			"NeedGoldRound": "8",
+			"GainGold": "6",
 			"GainGoldRound": "6"
 		},
 		{
+			"Level": "5",
+			"NeedGold": "9",
+			"NeedGoldRound": "9",
+			"GainGold": "7",
+			"GainGoldRound": "7"
+		},
+		{
 			"Level": "6",
-			"NeedGold": "12.9645154",
-			"NeedGoldRound": "13",
-			"GainGold": "7.573749083",
+			"NeedGold": "10",
+			"NeedGoldRound": "10",
+			"GainGold": "8",
 			"GainGoldRound": "8"
 		},
 		{
 			"Level": "7",
-			"NeedGold": "16.16181746",
-			"NeedGoldRound": "16",
-			"GainGold": "9.014897336",
+			"NeedGold": "11",
+			"NeedGoldRound": "11",
+			"GainGold": "9",
 			"GainGoldRound": "9"
 		},
 		{
 			"Level": "8",
-			"NeedGold": "19.56224444",
-			"NeedGoldRound": "20",
-			"GainGold": "10.48314723",
+			"NeedGold": "13",
+			"NeedGoldRound": "13",
+			"GainGold": "10",
 			"GainGoldRound": "10"
 		},
 		{
 			"Level": "9",
-			"NeedGold": "23.15084187",
-			"NeedGoldRound": "23",
-			"GainGold": "11.97551049",
-			"GainGoldRound": "12"
+			"NeedGold": "15",
+			"NeedGoldRound": "15",
+			"GainGold": "11",
+			"GainGoldRound": "11"
 		},
 		{
 			"Level": "10",
-			"NeedGold": "26.91534804",
-			"NeedGoldRound": "27",
-			"GainGold": "13.48962883",
-			"GainGoldRound": "13"
+			"NeedGold": "17",
+			"NeedGoldRound": "17",
+			"GainGold": "12",
+			"GainGoldRound": "12"
 		},
 		{
 			"Level": "11",
-			"NeedGold": "30.84548049",
-			"NeedGoldRound": "31",
-			"GainGold": "15.02359039",
-			"GainGoldRound": "15"
+			"NeedGold": "19",
+			"NeedGoldRound": "19",
+			"GainGold": "13",
+			"GainGoldRound": "13"
 		},
 		{
 			"Level": "12",
-			"NeedGold": "34.93246092",
-			"NeedGoldRound": "35",
-			"GainGold": "16.57581183",
-			"GainGoldRound": "17"
+			"NeedGold": "21",
+			"NeedGoldRound": "21",
+			"GainGold": "14",
+			"GainGoldRound": "14"
 		},
 		{
 			"Level": "13",
-			"NeedGold": "39.16868522",
-			"NeedGoldRound": "39",
-			"GainGold": "18.14495887",
-			"GainGoldRound": "18"
+			"NeedGold": "24",
+			"NeedGoldRound": "24",
+			"GainGold": "15",
+			"GainGoldRound": "15"
 		},
 		{
 			"Level": "14",
-			"NeedGold": "43.54748628",
-			"NeedGoldRound": "44",
-			"GainGold": "19.72989074",
-			"GainGoldRound": "20"
+			"NeedGold": "27",
+			"NeedGoldRound": "27",
+			"GainGold": "17",
+			"GainGoldRound": "17"
 		},
 		{
 			"Level": "15",
-			"NeedGold": "48.06295853",
-			"NeedGoldRound": "48",
-			"GainGold": "21.32962022",
-			"GainGoldRound": "21"
+			"NeedGold": "30",
+			"NeedGoldRound": "30",
+			"GainGold": "19",
+			"GainGoldRound": "19"
 		},
 		{
 			"Level": "16",
-			"NeedGold": "52.70982511",
-			"NeedGoldRound": "53",
-			"GainGold": "22.94328397",
-			"GainGoldRound": "23"
+			"NeedGold": "33",
+			"NeedGoldRound": "33",
+			"GainGold": "21",
+			"GainGoldRound": "21"
 		},
 		{
 			"Level": "17",
-			"NeedGold": "57.48333513",
-			"NeedGoldRound": "57",
-			"GainGold": "24.5701202",
-			"GainGoldRound": "25"
+			"NeedGold": "37",
+			"NeedGoldRound": "37",
+			"GainGold": "23",
+			"GainGoldRound": "23"
 		},
 		{
 			"Level": "18",
-			"NeedGold": "62.37918299",
-			"NeedGoldRound": "62",
-			"GainGold": "26.20945141",
-			"GainGoldRound": "26"
+			"NeedGold": "41",
+			"NeedGoldRound": "41",
+			"GainGold": "25",
+			"GainGoldRound": "25"
 		},
 		{
 			"Level": "19",
-			"NeedGold": "67.3934438",
-			"NeedGoldRound": "67",
-			"GainGold": "27.86067082",
-			"GainGoldRound": "28"
+			"NeedGold": "46",
+			"NeedGoldRound": "46",
+			"GainGold": "27",
+			"GainGoldRound": "27"
 		},
 		{
 			"Level": "20",
-			"NeedGold": "72.52252122",
-			"NeedGoldRound": "73",
-			"GainGold": "29.52323171",
-			"GainGoldRound": "30"
+			"NeedGold": "51",
+			"NeedGoldRound": "51",
+			"GainGold": "29",
+			"GainGoldRound": "29"
 		},
 		{
 			"Level": "21",
-			"NeedGold": "77.76310469",
-			"NeedGoldRound": "78",
-			"GainGold": "31.19663869",
-			"GainGoldRound": "31"
+			"NeedGold": "57",
+			"NeedGoldRound": "57",
+			"GainGold": "32",
+			"GainGoldRound": "32"
 		},
 		{
 			"Level": "22",
-			"NeedGold": "83.11213402",
-			"NeedGoldRound": "83",
-			"GainGold": "32.88044066",
-			"GainGoldRound": "33"
-		},
-		{
-			"Level": "23",
-			"NeedGold": "88.56676982",
-			"NeedGoldRound": "89",
-			"GainGold": "34.57422506",
+			"NeedGold": "63",
+			"NeedGoldRound": "63",
+			"GainGold": "35",
 			"GainGoldRound": "35"
 		},
 		{
-			"Level": "24",
-			"NeedGold": "94.12436854",
-			"NeedGoldRound": "94",
-			"GainGold": "36.27761297",
-			"GainGoldRound": "36"
-		},
-		{
-			"Level": "25",
-			"NeedGold": "99.78246132",
-			"NeedGoldRound": "100",
-			"GainGold": "37.9902551",
+			"Level": "23",
+			"NeedGold": "70",
+			"NeedGoldRound": "70",
+			"GainGold": "38",
 			"GainGoldRound": "38"
 		},
 		{
+			"Level": "24",
+			"NeedGold": "77",
+			"NeedGoldRound": "77",
+			"GainGold": "41",
+			"GainGoldRound": "41"
+		},
+		{
+			"Level": "25",
+			"NeedGold": "91",
+			"NeedGoldRound": "91",
+			"GainGold": "45",
+			"GainGoldRound": "45"
+		},
+		{
 			"Level": "26",
-			"NeedGold": "299.3666096",
-			"NeedGoldRound": "299",
-			"GainGold": "121.2201165",
-			"GainGoldRound": "121"
+			"NeedGold": "107",
+			"NeedGoldRound": "107",
+			"GainGold": "99",
+			"GainGoldRound": "99"
 		},
 		{
 			"Level": "27",
-			"NeedGold": "319.8059851",
-			"NeedGoldRound": "320",
-			"GainGold": "123.2819745",
-			"GainGoldRound": "123"
+			"NeedGold": "126",
+			"NeedGoldRound": "126",
+			"GainGold": "108",
+			"GainGoldRound": "108"
 		},
 		{
 			"Level": "28",
-			"NeedGold": "340.8211636",
-			"NeedGoldRound": "341",
-			"GainGold": "125.3372452",
-			"GainGoldRound": "125"
+			"NeedGold": "148",
+			"NeedGoldRound": "148",
+			"GainGold": "118",
+			"GainGoldRound": "118"
 		},
 		{
 			"Level": "29",
-			"NeedGold": "362.4069322",
-			"NeedGoldRound": "362",
-			"GainGold": "127.4050348",
-			"GainGoldRound": "127"
-		},
-		{
-			"Level": "30",
-			"NeedGold": "384.5583058",
-			"NeedGoldRound": "385",
-			"GainGold": "129.4849837",
+			"NeedGold": "174",
+			"NeedGoldRound": "174",
+			"GainGold": "129",
 			"GainGoldRound": "129"
 		},
 		{
+			"Level": "30",
+			"NeedGold": "204",
+			"NeedGoldRound": "204",
+			"GainGold": "141",
+			"GainGoldRound": "141"
+		},
+		{
 			"Level": "31",
-			"NeedGold": "407.2705098",
-			"NeedGoldRound": "407",
-			"GainGold": "131.5767545",
-			"GainGoldRound": "132"
+			"NeedGold": "239",
+			"NeedGoldRound": "239",
+			"GainGold": "154",
+			"GainGoldRound": "154"
 		},
 		{
 			"Level": "32",
-			"NeedGold": "430.5389646",
-			"NeedGoldRound": "431",
-			"GainGold": "133.6800296",
-			"GainGoldRound": "134"
+			"NeedGold": "280",
+			"NeedGoldRound": "280",
+			"GainGold": "168",
+			"GainGoldRound": "168"
 		},
 		{
 			"Level": "33",
-			"NeedGold": "454.3592718",
-			"NeedGoldRound": "454",
-			"GainGold": "135.7945098",
-			"GainGoldRound": "136"
+			"NeedGold": "328",
+			"NeedGoldRound": "328",
+			"GainGold": "184",
+			"GainGoldRound": "184"
 		},
 		{
 			"Level": "34",
-			"NeedGold": "478.7272013",
-			"NeedGoldRound": "479",
-			"GainGold": "137.9199124",
-			"GainGoldRound": "138"
+			"NeedGold": "384",
+			"NeedGoldRound": "384",
+			"GainGold": "201",
+			"GainGoldRound": "201"
 		},
 		{
 			"Level": "35",
-			"NeedGold": "503.6386807",
-			"NeedGoldRound": "504",
-			"GainGold": "140.05597",
-			"GainGoldRound": "140"
+			"NeedGold": "450",
+			"NeedGoldRound": "450",
+			"GainGold": "220",
+			"GainGoldRound": "220"
 		},
 		{
 			"Level": "36",
-			"NeedGold": "529.0897844",
-			"NeedGoldRound": "529",
-			"GainGold": "142.2024293",
-			"GainGoldRound": "142"
+			"NeedGold": "527",
+			"NeedGoldRound": "527",
+			"GainGold": "240",
+			"GainGoldRound": "240"
 		},
 		{
 			"Level": "37",
-			"NeedGold": "555.0767248",
-			"NeedGoldRound": "555",
-			"GainGold": "144.3590498",
-			"GainGoldRound": "144"
+			"NeedGold": "617",
+			"NeedGoldRound": "617",
+			"GainGold": "262",
+			"GainGoldRound": "262"
 		},
 		{
 			"Level": "38",
-			"NeedGold": "581.5958435",
-			"NeedGoldRound": "582",
-			"GainGold": "146.525603",
-			"GainGoldRound": "147"
+			"NeedGold": "722",
+			"NeedGoldRound": "722",
+			"GainGold": "286",
+			"GainGoldRound": "286"
 		},
 		{
 			"Level": "39",
-			"NeedGold": "608.6436037",
-			"NeedGoldRound": "609",
-			"GainGold": "148.7018714",
-			"GainGoldRound": "149"
+			"NeedGold": "845",
+			"NeedGoldRound": "845",
+			"GainGold": "312",
+			"GainGoldRound": "312"
 		},
 		{
 			"Level": "40",
-			"NeedGold": "636.216583",
-			"NeedGoldRound": "636",
-			"GainGold": "150.8876478",
-			"GainGoldRound": "151"
+			"NeedGold": "989",
+			"NeedGoldRound": "989",
+			"GainGold": "341",
+			"GainGoldRound": "341"
 		},
 		{
 			"Level": "41",
-			"NeedGold": "664.3114673",
-			"NeedGoldRound": "664",
-			"GainGold": "153.0827344",
-			"GainGoldRound": "153"
+			"NeedGold": "1158",
+			"NeedGoldRound": "1158",
+			"GainGold": "372",
+			"GainGoldRound": "372"
 		},
 		{
 			"Level": "42",
-			"NeedGold": "692.9250442",
-			"NeedGoldRound": "693",
-			"GainGold": "155.2869423",
-			"GainGoldRound": "155"
+			"NeedGold": "1355",
+			"NeedGoldRound": "1355",
+			"GainGold": "406",
+			"GainGoldRound": "406"
 		},
 		{
 			"Level": "43",
-			"NeedGold": "722.0541979",
-			"NeedGoldRound": "722",
-			"GainGold": "157.5000909",
-			"GainGoldRound": "158"
+			"NeedGold": "1586",
+			"NeedGoldRound": "1586",
+			"GainGold": "443",
+			"GainGoldRound": "443"
 		},
 		{
 			"Level": "44",
-			"NeedGold": "751.6959041",
-			"NeedGoldRound": "752",
-			"GainGold": "159.7220071",
-			"GainGoldRound": "160"
+			"NeedGold": "1856",
+			"NeedGoldRound": "1856",
+			"GainGold": "483",
+			"GainGoldRound": "483"
 		},
 		{
 			"Level": "45",
-			"NeedGold": "781.8472251",
-			"NeedGoldRound": "782",
-			"GainGold": "161.9525254",
-			"GainGoldRound": "162"
+			"NeedGold": "2172",
+			"NeedGoldRound": "2172",
+			"GainGold": "527",
+			"GainGoldRound": "527"
 		},
 		{
 			"Level": "46",
-			"NeedGold": "812.5053054",
-			"NeedGoldRound": "813",
-			"GainGold": "164.1914865",
-			"GainGoldRound": "164"
+			"NeedGold": "2542",
+			"NeedGoldRound": "2542",
+			"GainGold": "575",
+			"GainGoldRound": "575"
 		},
 		{
 			"Level": "47",
-			"NeedGold": "843.6673679",
-			"NeedGoldRound": "844",
-			"GainGold": "166.4387381",
-			"GainGoldRound": "166"
+			"NeedGold": "2975",
+			"NeedGoldRound": "2975",
+			"GainGold": "627",
+			"GainGoldRound": "627"
 		},
 		{
 			"Level": "48",
-			"NeedGold": "875.3307099",
-			"NeedGoldRound": "875",
-			"GainGold": "168.6941332",
-			"GainGoldRound": "169"
+			"NeedGold": "3481",
+			"NeedGoldRound": "3481",
+			"GainGold": "684",
+			"GainGoldRound": "684"
 		},
 		{
 			"Level": "49",
-			"NeedGold": "907.4926997",
-			"NeedGoldRound": "907",
-			"GainGold": "170.9575309",
-			"GainGoldRound": "171"
+			"NeedGold": "4073",
+			"NeedGoldRound": "4073",
+			"GainGold": "746",
+			"GainGoldRound": "746"
 		},
 		{
 			"Level": "50",
-			"NeedGold": "940.1507733",
-			"NeedGoldRound": "940",
-			"GainGold": "173.2287954",
-			"GainGoldRound": "173"
+			"NeedGold": "5051",
+			"NeedGoldRound": "5051",
+			"GainGold": "829",
+			"GainGoldRound": "829"
 		},
 		{
 			"Level": "51",
-			"NeedGold": "1560.113624",
-			"NeedGoldRound": "1560",
-			"GainGold": "457.9654968",
-			"GainGoldRound": "458"
+			"NeedGold": "6264",
+			"NeedGoldRound": "6264",
+			"GainGold": "1841",
+			"GainGoldRound": "1841"
 		},
 		{
 			"Level": "52",
-			"NeedGold": "1617.805295",
-			"NeedGoldRound": "1618",
-			"GainGold": "460.6051179",
-			"GainGoldRound": "461"
+			"NeedGold": "7768",
+			"NeedGoldRound": "7768",
+			"GainGold": "2044",
+			"GainGoldRound": "2044"
 		},
 		{
 			"Level": "53",
-			"NeedGold": "1676.470347",
-			"NeedGoldRound": "1676",
-			"GainGold": "463.2549116",
-			"GainGoldRound": "463"
+			"NeedGold": "9633",
+			"NeedGoldRound": "9633",
+			"GainGold": "2269",
+			"GainGoldRound": "2269"
 		},
 		{
 			"Level": "54",
-			"NeedGold": "1736.106371",
-			"NeedGoldRound": "1736",
-			"GainGold": "465.9147239",
-			"GainGoldRound": "466"
+			"NeedGold": "11945",
+			"NeedGoldRound": "11945",
+			"GainGold": "2519",
+			"GainGoldRound": "2519"
 		},
 		{
 			"Level": "55",
-			"NeedGold": "1796.711011",
-			"NeedGoldRound": "1797",
-			"GainGold": "468.5844061",
-			"GainGoldRound": "469"
+			"NeedGold": "14812",
+			"NeedGoldRound": "14812",
+			"GainGold": "2797",
+			"GainGoldRound": "2797"
 		},
 		{
 			"Level": "56",
-			"NeedGold": "1858.281959",
-			"NeedGoldRound": "1858",
-			"GainGold": "471.2638144",
-			"GainGoldRound": "471"
+			"NeedGold": "18367",
+			"NeedGoldRound": "18367",
+			"GainGold": "3105",
+			"GainGoldRound": "3105"
 		},
 		{
 			"Level": "57",
-			"NeedGold": "1920.816953",
-			"NeedGoldRound": "1921",
-			"GainGold": "473.9528097",
-			"GainGoldRound": "474"
+			"NeedGold": "22776",
+			"NeedGoldRound": "22776",
+			"GainGold": "3447",
+			"GainGoldRound": "3447"
 		},
 		{
 			"Level": "58",
-			"NeedGold": "1984.313778",
-			"NeedGoldRound": "1984",
-			"GainGold": "476.6512569",
-			"GainGoldRound": "477"
+			"NeedGold": "28243",
+			"NeedGoldRound": "28243",
+			"GainGold": "3827",
+			"GainGoldRound": "3827"
 		},
 		{
 			"Level": "59",
-			"NeedGold": "2048.770262",
-			"NeedGoldRound": "2049",
-			"GainGold": "479.3590257",
-			"GainGoldRound": "479"
+			"NeedGold": "35022",
+			"NeedGoldRound": "35022",
+			"GainGold": "4248",
+			"GainGoldRound": "4248"
 		},
 		{
 			"Level": "60",
-			"NeedGold": "2114.184275",
-			"NeedGoldRound": "2114",
-			"GainGold": "482.0759893",
-			"GainGoldRound": "482"
+			"NeedGold": "43428",
+			"NeedGoldRound": "43428",
+			"GainGold": "4716",
+			"GainGoldRound": "4716"
 		},
 		{
 			"Level": "61",
-			"NeedGold": "2180.553725",
-			"NeedGoldRound": "2181",
-			"GainGold": "484.802025",
-			"GainGoldRound": "485"
+			"NeedGold": "53851",
+			"NeedGoldRound": "53851",
+			"GainGold": "5235",
+			"GainGoldRound": "5235"
 		},
 		{
 			"Level": "62",
-			"NeedGold": "2247.876564",
-			"NeedGoldRound": "2248",
-			"GainGold": "487.5370135",
-			"GainGoldRound": "488"
+			"NeedGold": "66776",
+			"NeedGoldRound": "66776",
+			"GainGold": "5811",
+			"GainGoldRound": "5811"
 		},
 		{
 			"Level": "63",
-			"NeedGold": "2316.150776",
-			"NeedGoldRound": "2316",
-			"GainGold": "490.2808391",
-			"GainGoldRound": "490"
+			"NeedGold": "82803",
+			"NeedGoldRound": "82803",
+			"GainGold": "6451",
+			"GainGoldRound": "6451"
 		},
 		{
 			"Level": "64",
-			"NeedGold": "2385.374385",
-			"NeedGoldRound": "2385",
-			"GainGold": "493.0333894",
-			"GainGoldRound": "493"
+			"NeedGold": "102676",
+			"NeedGoldRound": "102676",
+			"GainGold": "7161",
+			"GainGoldRound": "7161"
 		},
 		{
 			"Level": "65",
-			"NeedGold": "2455.54545",
-			"NeedGoldRound": "2456",
-			"GainGold": "495.7945553",
-			"GainGoldRound": "496"
+			"NeedGold": "127319",
+			"NeedGoldRound": "127319",
+			"GainGold": "7949",
+			"GainGoldRound": "7949"
 		},
 		{
 			"Level": "66",
-			"NeedGold": "2526.662062",
-			"NeedGoldRound": "2527",
-			"GainGold": "498.5642304",
-			"GainGoldRound": "499"
+			"NeedGold": "157876",
+			"NeedGoldRound": "157876",
+			"GainGold": "8824",
+			"GainGoldRound": "8824"
 		},
 		{
 			"Level": "67",
-			"NeedGold": "2598.722347",
-			"NeedGoldRound": "2599",
-			"GainGold": "501.3423115",
-			"GainGoldRound": "501"
+			"NeedGold": "195767",
+			"NeedGoldRound": "195767",
+			"GainGold": "9795",
+			"GainGoldRound": "9795"
 		},
 		{
 			"Level": "68",
-			"NeedGold": "2671.724462",
-			"NeedGoldRound": "2672",
-			"GainGold": "504.1286981",
-			"GainGoldRound": "504"
+			"NeedGold": "242752",
+			"NeedGoldRound": "242752",
+			"GainGold": "10873",
+			"GainGoldRound": "10873"
 		},
 		{
 			"Level": "69",
-			"NeedGold": "2745.666593",
-			"NeedGoldRound": "2746",
-			"GainGold": "506.9232922",
-			"GainGoldRound": "507"
+			"NeedGold": "301013",
+			"NeedGoldRound": "301013",
+			"GainGold": "12070",
+			"GainGoldRound": "12070"
 		},
 		{
 			"Level": "70",
-			"NeedGold": "2820.54696",
-			"NeedGoldRound": "2821",
-			"GainGold": "509.7259986",
-			"GainGoldRound": "510"
+			"NeedGold": "373257",
+			"NeedGoldRound": "373257",
+			"GainGold": "13398",
+			"GainGoldRound": "13398"
 		},
 		{
 			"Level": "71",
-			"NeedGold": "2896.363808",
-			"NeedGoldRound": "2896",
-			"GainGold": "512.5367245",
-			"GainGoldRound": "513"
+			"NeedGold": "462839",
+			"NeedGoldRound": "462839",
+			"GainGold": "14872",
+			"GainGoldRound": "14872"
 		},
 		{
 			"Level": "72",
-			"NeedGold": "2973.115413",
-			"NeedGoldRound": "2973",
-			"GainGold": "515.3553792",
-			"GainGoldRound": "515"
+			"NeedGold": "573921",
+			"NeedGoldRound": "573921",
+			"GainGold": "16508",
+			"GainGoldRound": "16508"
 		},
 		{
 			"Level": "73",
-			"NeedGold": "3050.800075",
-			"NeedGoldRound": "3051",
-			"GainGold": "518.1818747",
-			"GainGoldRound": "518"
+			"NeedGold": "711663",
+			"NeedGoldRound": "711663",
+			"GainGold": "18324",
+			"GainGoldRound": "18324"
 		},
 		{
 			"Level": "74",
-			"NeedGold": "3129.416124",
-			"NeedGoldRound": "3129",
-			"GainGold": "521.0161249",
-			"GainGoldRound": "521"
+			"NeedGold": "882463",
+			"NeedGoldRound": "882463",
+			"GainGold": "20340",
+			"GainGoldRound": "20340"
 		},
 		{
 			"Level": "75",
-			"NeedGold": "5159.66258",
-			"NeedGoldRound": "5160",
-			"GainGold": "523.8580457",
-			"GainGoldRound": "524"
-		},
-		{
-			"Level": "76",
-			"NeedGold": "5296.767532",
-			"NeedGoldRound": "5297",
-			"GainGold": "1253.778842",
-			"GainGoldRound": "1254"
-		},
-		{
-			"Level": "77",
-			"NeedGold": "5435.65189",
-			"NeedGoldRound": "5436",
-			"GainGold": "1257.114232",
-			"GainGoldRound": "1257"
-		},
-		{
-			"Level": "78",
-			"NeedGold": "5576.315189",
-			"NeedGoldRound": "5576",
-			"GainGold": "1260.459601",
-			"GainGoldRound": "1260"
-		},
-		{
-			"Level": "79",
-			"NeedGold": "5718.75697",
-			"NeedGoldRound": "5719",
-			"GainGold": "1263.814849",
-			"GainGoldRound": "1264"
-		},
-		{
-			"Level": "80",
-			"NeedGold": "5862.976781",
-			"NeedGoldRound": "5863",
-			"GainGold": "1267.17988",
-			"GainGoldRound": "1267"
-		},
-		{
-			"Level": "81",
-			"NeedGold": "6008.974173",
-			"NeedGoldRound": "6009",
-			"GainGold": "1270.554599",
-			"GainGoldRound": "1271"
-		},
-		{
-			"Level": "82",
-			"NeedGold": "6156.748705",
-			"NeedGoldRound": "6157",
-			"GainGold": "1273.938915",
-			"GainGoldRound": "1274"
-		},
-		{
-			"Level": "83",
-			"NeedGold": "6306.299942",
-			"NeedGoldRound": "6306",
-			"GainGold": "1277.332737",
-			"GainGoldRound": "1277"
-		},
-		{
-			"Level": "84",
-			"NeedGold": "6457.627451",
-			"NeedGoldRound": "6458",
-			"GainGold": "1280.735976",
-			"GainGoldRound": "1281"
-		},
-		{
-			"Level": "85",
-			"NeedGold": "6610.730809",
-			"NeedGoldRound": "6611",
-			"GainGold": "1284.148547",
-			"GainGoldRound": "1284"
-		},
-		{
-			"Level": "86",
-			"NeedGold": "6765.609594",
-			"NeedGoldRound": "6766",
-			"GainGold": "1287.570365",
-			"GainGoldRound": "1288"
-		},
-		{
-			"Level": "87",
-			"NeedGold": "6922.263392",
-			"NeedGoldRound": "6922",
-			"GainGold": "1291.001347",
-			"GainGoldRound": "1291"
-		},
-		{
-			"Level": "88",
-			"NeedGold": "7080.691792",
-			"NeedGoldRound": "7081",
-			"GainGold": "1294.441411",
-			"GainGoldRound": "1294"
-		},
-		{
-			"Level": "89",
-			"NeedGold": "7240.894388",
-			"NeedGoldRound": "7241",
-			"GainGold": "1297.890478",
-			"GainGoldRound": "1298"
-		},
-		{
-			"Level": "90",
-			"NeedGold": "7402.87078",
-			"NeedGoldRound": "7403",
-			"GainGold": "1301.34847",
-			"GainGoldRound": "1301"
-		},
-		{
-			"Level": "91",
-			"NeedGold": "7566.620571",
-			"NeedGoldRound": "7567",
-			"GainGold": "1304.815311",
-			"GainGoldRound": "1305"
-		},
-		{
-			"Level": "92",
-			"NeedGold": "7732.14337",
-			"NeedGoldRound": "7732",
-			"GainGold": "1308.290926",
-			"GainGoldRound": "1308"
-		},
-		{
-			"Level": "93",
-			"NeedGold": "7899.438788",
-			"NeedGoldRound": "7899",
-			"GainGold": "1311.77524",
-			"GainGoldRound": "1312"
-		},
-		{
-			"Level": "94",
-			"NeedGold": "8068.506443",
-			"NeedGoldRound": "8069",
-			"GainGold": "1315.268182",
-			"GainGoldRound": "1315"
-		},
-		{
-			"Level": "95",
-			"NeedGold": "8239.345955",
-			"NeedGoldRound": "8239",
-			"GainGold": "1318.769682",
-			"GainGoldRound": "1319"
-		},
-		{
-			"Level": "96",
-			"NeedGold": "8411.95695",
-			"NeedGoldRound": "8412",
-			"GainGold": "1322.279669",
-			"GainGoldRound": "1322"
-		},
-		{
-			"Level": "97",
-			"NeedGold": "8586.339056",
-			"NeedGoldRound": "8586",
-			"GainGold": "1325.798076",
-			"GainGoldRound": "1326"
-		},
-		{
-			"Level": "98",
-			"NeedGold": "8762.491907",
-			"NeedGoldRound": "8762",
-			"GainGold": "1329.324835",
-			"GainGoldRound": "1329"
-		},
-		{
-			"Level": "99",
-			"NeedGold": "8940.415139",
-			"NeedGoldRound": "8940",
-			"GainGold": "1332.859882",
-			"GainGoldRound": "1333"
-		},
-		{
-			"Level": "100",
-			"NeedGold": "9120.108394",
-			"NeedGoldRound": "9120",
-			"GainGold": "1336.40315",
-			"GainGoldRound": "1336"
-		},
-		{
-			"Level": "101",
-			"NeedGold": "18586.795735",
-			"NeedGoldRound": "18587",
-			"GainGold": "3023.146339",
-			"GainGoldRound": "3023"
-		},
-		{
-			"Level": "102",
-			"NeedGold": "18980.968387",
-			"NeedGoldRound": "18981",
-			"GainGold": "3027.567631",
-			"GainGoldRound": "3028"
-		},
-		{
-			"Level": "103",
-			"NeedGold": "19379.532162",
-			"NeedGoldRound": "19380",
-			"GainGold": "3032.000642",
-			"GainGoldRound": "3032"
-		},
-		{
-			"Level": "104",
-			"NeedGold": "19782.492635",
-			"NeedGoldRound": "19782",
-			"GainGold": "3036.445289",
-			"GainGoldRound": "3036"
-		},
-		{
-			"Level": "105",
-			"NeedGold": "20189.85533",
-			"NeedGoldRound": "20190",
-			"GainGold": "3040.90149",
-			"GainGoldRound": "3041"
-		},
-		{
-			"Level": "106",
-			"NeedGold": "20601.625727",
-			"NeedGoldRound": "20602",
-			"GainGold": "3045.369165",
-			"GainGoldRound": "3045"
-		},
-		{
-			"Level": "107",
-			"NeedGold": "21017.809262",
-			"NeedGoldRound": "21018",
-			"GainGold": "3049.848235",
-			"GainGoldRound": "3050"
-		},
-		{
-			"Level": "108",
-			"NeedGold": "21438.411325",
-			"NeedGoldRound": "21438",
-			"GainGold": "3054.338621",
-			"GainGoldRound": "3054"
-		},
-		{
-			"Level": "109",
-			"NeedGold": "21863.437262",
-			"NeedGoldRound": "21863",
-			"GainGold": "3058.840247",
-			"GainGoldRound": "3059"
-		},
-		{
-			"Level": "110",
-			"NeedGold": "22292.892377",
-			"NeedGoldRound": "22293",
-			"GainGold": "3063.353039",
-			"GainGoldRound": "3063"
-		},
-		{
-			"Level": "111",
-			"NeedGold": "22726.781931",
-			"NeedGoldRound": "22727",
-			"GainGold": "3067.87692",
-			"GainGoldRound": "3068"
-		},
-		{
-			"Level": "112",
-			"NeedGold": "23165.111146",
-			"NeedGoldRound": "23165",
-			"GainGold": "3072.41182",
-			"GainGoldRound": "3072"
-		},
-		{
-			"Level": "113",
-			"NeedGold": "23607.8852",
-			"NeedGoldRound": "23608",
-			"GainGold": "3076.957665",
-			"GainGoldRound": "3077"
-		},
-		{
-			"Level": "114",
-			"NeedGold": "24055.109233",
-			"NeedGoldRound": "24055",
-			"GainGold": "3081.514384",
-			"GainGoldRound": "3082"
-		},
-		{
-			"Level": "115",
-			"NeedGold": "24506.788344",
-			"NeedGoldRound": "24507",
-			"GainGold": "3086.081909",
-			"GainGoldRound": "3086"
-		},
-		{
-			"Level": "116",
-			"NeedGold": "24962.927595",
-			"NeedGoldRound": "24963",
-			"GainGold": "3090.660171",
-			"GainGoldRound": "3091"
-		},
-		{
-			"Level": "117",
-			"NeedGold": "25423.532008",
-			"NeedGoldRound": "25424",
-			"GainGold": "3095.249101",
-			"GainGoldRound": "3095"
-		},
-		{
-			"Level": "118",
-			"NeedGold": "25888.60657",
-			"NeedGoldRound": "25889",
-			"GainGold": "3099.848634",
-			"GainGoldRound": "3100"
-		},
-		{
-			"Level": "119",
-			"NeedGold": "26358.156228",
-			"NeedGoldRound": "26358",
-			"GainGold": "3104.458702",
-			"GainGoldRound": "3104"
-		},
-		{
-			"Level": "120",
-			"NeedGold": "26832.185894",
-			"NeedGoldRound": "26832",
-			"GainGold": "3109.079243",
-			"GainGoldRound": "3109"
-		},
-		{
-			"Level": "121",
-			"NeedGold": "27310.700446",
-			"NeedGoldRound": "27311",
-			"GainGold": "3113.710192",
-			"GainGoldRound": "3114"
-		},
-		{
-			"Level": "122",
-			"NeedGold": "27793.704725",
-			"NeedGoldRound": "27794",
-			"GainGold": "3118.351486",
-			"GainGoldRound": "3118"
-		},
-		{
-			"Level": "123",
-			"NeedGold": "28281.203536",
-			"NeedGoldRound": "28281",
-			"GainGold": "3123.003063",
-			"GainGoldRound": "3123"
-		},
-		{
-			"Level": "124",
-			"NeedGold": "28773.201652",
-			"NeedGoldRound": "28773",
-			"GainGold": "3127.664862",
-			"GainGoldRound": "3128"
-		},
-		{
-			"Level": "125",
-			"NeedGold": "29269.703812",
-			"NeedGoldRound": "29270",
-			"GainGold": "3132.336823",
-			"GainGoldRound": "3132"
-		},
-		{
-			"Level": "126",
-			"NeedGold": "29770.714721",
-			"NeedGoldRound": "29771",
-			"GainGold": "3137.018887",
-			"GainGoldRound": "3137"
-		},
-		{
-			"Level": "127",
-			"NeedGold": "30276.239052",
-			"NeedGoldRound": "30276",
-			"GainGold": "3141.710994",
-			"GainGoldRound": "3142"
-		},
-		{
-			"Level": "128",
-			"NeedGold": "30786.281446",
-			"NeedGoldRound": "30786",
-			"GainGold": "3146.413088",
-			"GainGoldRound": "3146"
-		},
-		{
-			"Level": "129",
-			"NeedGold": "31300.846513",
-			"NeedGoldRound": "31301",
-			"GainGold": "3151.12511",
-			"GainGoldRound": "3151"
-		},
-		{
-			"Level": "130",
-			"NeedGold": "31819.938829",
-			"NeedGoldRound": "31820",
-			"GainGold": "3155.847005",
-			"GainGoldRound": "3156"
-		},
-		{
-			"Level": "131",
-			"NeedGold": "32343.562942",
-			"NeedGoldRound": "32344",
-			"GainGold": "3160.578718",
-			"GainGoldRound": "3161"
-		},
-		{
-			"Level": "132",
-			"NeedGold": "32871.723368",
-			"NeedGoldRound": "32872",
-			"GainGold": "3165.320193",
-			"GainGoldRound": "3165"
-		},
-		{
-			"Level": "133",
-			"NeedGold": "33404.424596",
-			"NeedGoldRound": "33404",
-			"GainGold": "3170.071376",
-			"GainGoldRound": "3170"
-		},
-		{
-			"Level": "134",
-			"NeedGold": "33941.671081",
-			"NeedGoldRound": "33942",
-			"GainGold": "3174.832215",
-			"GainGoldRound": "3175"
-		},
-		{
-			"Level": "135",
-			"NeedGold": "34483.467252",
-			"NeedGoldRound": "34483",
-			"GainGold": "3179.602656",
-			"GainGoldRound": "3180"
-		},
-		{
-			"Level": "136",
-			"NeedGold": "35029.817509",
-			"NeedGoldRound": "35030",
-			"GainGold": "3184.382648",
-			"GainGoldRound": "3184"
-		},
-		{
-			"Level": "137",
-			"NeedGold": "35580.726223",
-			"NeedGoldRound": "35581",
-			"GainGold": "3189.172139",
-			"GainGoldRound": "3189"
-		},
-		{
-			"Level": "138",
-			"NeedGold": "36136.197739",
-			"NeedGoldRound": "36136",
-			"GainGold": "3193.971078",
-			"GainGoldRound": "3194"
-		},
-		{
-			"Level": "139",
-			"NeedGold": "36696.23637",
-			"NeedGoldRound": "36696",
-			"GainGold": "3198.779416",
-			"GainGoldRound": "3199"
-		},
-		{
-			"Level": "140",
-			"NeedGold": "37260.846408",
-			"NeedGoldRound": "37261",
-			"GainGold": "3203.597103",
-			"GainGoldRound": "3204"
-		},
-		{
-			"Level": "141",
-			"NeedGold": "37830.032113",
-			"NeedGoldRound": "37830",
-			"GainGold": "3208.42409",
-			"GainGoldRound": "3208"
-		},
-		{
-			"Level": "142",
-			"NeedGold": "38403.797722",
-			"NeedGoldRound": "38404",
-			"GainGold": "3213.260329",
-			"GainGoldRound": "3213"
-		},
-		{
-			"Level": "143",
-			"NeedGold": "38982.147444",
-			"NeedGoldRound": "38982",
-			"GainGold": "3218.105773",
-			"GainGoldRound": "3218"
-		},
-		{
-			"Level": "144",
-			"NeedGold": "39565.085463",
-			"NeedGoldRound": "39565",
-			"GainGold": "3222.960374",
-			"GainGoldRound": "3223"
-		},
-		{
-			"Level": "145",
-			"NeedGold": "40152.615937",
-			"NeedGoldRound": "40153",
-			"GainGold": "3227.824086",
-			"GainGoldRound": "3228"
-		},
-		{
-			"Level": "146",
-			"NeedGold": "40744.743001",
-			"NeedGoldRound": "40745",
-			"GainGold": "3232.696864",
-			"GainGoldRound": "3233"
-		},
-		{
-			"Level": "147",
-			"NeedGold": "41341.470763",
-			"NeedGoldRound": "41341",
-			"GainGold": "3237.578661",
-			"GainGoldRound": "3238"
-		},
-		{
-			"Level": "148",
-			"NeedGold": "41942.803307",
-			"NeedGoldRound": "41943",
-			"GainGold": "3242.469433",
-			"GainGoldRound": "3242"
-		},
-		{
-			"Level": "149",
-			"NeedGold": "42548.744694",
-			"NeedGoldRound": "42549",
-			"GainGold": "3247.369135",
-			"GainGoldRound": "3247"
-		},
-		{
-			"Level": "150",
-			"NeedGold": "43159.29896",
-			"NeedGoldRound": "43159",
-			"GainGold": "3252.277724",
-			"GainGoldRound": "3252"
-		},
-		{
-			"Level": "151",
-			"NeedGold": "132006.654941",
-			"NeedGoldRound": "132007",
-			"GainGold": "7219.253186",
-			"GainGoldRound": "7219"
-		},
-		{
-			"Level": "152",
-			"NeedGold": "134070.253847",
-			"NeedGoldRound": "134070",
-			"GainGold": "7225.464722",
-			"GainGoldRound": "7225"
-		},
-		{
-			"Level": "153",
-			"NeedGold": "136152.262447",
-			"NeedGoldRound": "136152",
-			"GainGold": "7231.68894",
-			"GainGoldRound": "7232"
-		},
-		{
-			"Level": "154",
-			"NeedGold": "138252.723039",
-			"NeedGoldRound": "138253",
-			"GainGold": "7237.925782",
-			"GainGoldRound": "7238"
-		},
-		{
-			"Level": "155",
-			"NeedGold": "140371.677745",
-			"NeedGoldRound": "140372",
-			"GainGold": "7244.175191",
-			"GainGoldRound": "7244"
-		},
-		{
-			"Level": "156",
-			"NeedGold": "142509.168509",
-			"NeedGoldRound": "142509",
-			"GainGold": "7250.437112",
-			"GainGoldRound": "7250"
-		},
-		{
-			"Level": "157",
-			"NeedGold": "144665.2371",
-			"NeedGoldRound": "144665",
-			"GainGold": "7256.711489",
-			"GainGoldRound": "7257"
-		},
-		{
-			"Level": "158",
-			"NeedGold": "146839.925112",
-			"NeedGoldRound": "146840",
-			"GainGold": "7262.998266",
-			"GainGoldRound": "7263"
-		},
-		{
-			"Level": "159",
-			"NeedGold": "149033.273968",
-			"NeedGoldRound": "149033",
-			"GainGold": "7269.297391",
-			"GainGoldRound": "7269"
-		},
-		{
-			"Level": "160",
-			"NeedGold": "151245.324921",
-			"NeedGoldRound": "151245",
-			"GainGold": "7275.608809",
-			"GainGoldRound": "7276"
-		},
-		{
-			"Level": "161",
-			"NeedGold": "153476.119054",
-			"NeedGoldRound": "153476",
-			"GainGold": "7281.932468",
-			"GainGoldRound": "7282"
-		},
-		{
-			"Level": "162",
-			"NeedGold": "155725.697287",
-			"NeedGoldRound": "155726",
-			"GainGold": "7288.268314",
-			"GainGoldRound": "7288"
-		},
-		{
-			"Level": "163",
-			"NeedGold": "157994.100372",
-			"NeedGoldRound": "157994",
-			"GainGold": "7294.616296",
-			"GainGoldRound": "7295"
-		},
-		{
-			"Level": "164",
-			"NeedGold": "160281.368899",
-			"NeedGoldRound": "160281",
-			"GainGold": "7300.976363",
-			"GainGoldRound": "7301"
-		},
-		{
-			"Level": "165",
-			"NeedGold": "162587.543296",
-			"NeedGoldRound": "162588",
-			"GainGold": "7307.348463",
-			"GainGoldRound": "7307"
-		},
-		{
-			"Level": "166",
-			"NeedGold": "164912.663832",
-			"NeedGoldRound": "164913",
-			"GainGold": "7313.732546",
-			"GainGoldRound": "7314"
-		},
-		{
-			"Level": "167",
-			"NeedGold": "167256.770616",
-			"NeedGoldRound": "167257",
-			"GainGold": "7320.128562",
-			"GainGoldRound": "7320"
-		},
-		{
-			"Level": "168",
-			"NeedGold": "169619.903602",
-			"NeedGoldRound": "169620",
-			"GainGold": "7326.536463",
-			"GainGoldRound": "7327"
-		},
-		{
-			"Level": "169",
-			"NeedGold": "172002.102588",
-			"NeedGoldRound": "172002",
-			"GainGold": "7332.956198",
-			"GainGoldRound": "7333"
-		},
-		{
-			"Level": "170",
-			"NeedGold": "174403.407218",
-			"NeedGoldRound": "174403",
-			"GainGold": "7339.38772",
-			"GainGoldRound": "7339"
-		},
-		{
-			"Level": "171",
-			"NeedGold": "176823.856985",
-			"NeedGoldRound": "176824",
-			"GainGold": "7345.830981",
-			"GainGoldRound": "7346"
-		},
-		{
-			"Level": "172",
-			"NeedGold": "179263.49123",
-			"NeedGoldRound": "179263",
-			"GainGold": "7352.285933",
-			"GainGoldRound": "7352"
-		},
-		{
-			"Level": "173",
-			"NeedGold": "181722.349145",
-			"NeedGoldRound": "181722",
-			"GainGold": "7358.75253",
-			"GainGoldRound": "7359"
-		},
-		{
-			"Level": "174",
-			"NeedGold": "184200.469775",
-			"NeedGoldRound": "184200",
-			"GainGold": "7365.230725",
-			"GainGoldRound": "7365"
-		},
-		{
-			"Level": "175",
-			"NeedGold": "186697.892018",
-			"NeedGoldRound": "186698",
-			"GainGold": "7371.720472",
-			"GainGoldRound": "7372"
-		},
-		{
-			"Level": "176",
-			"NeedGold": "189214.654626",
-			"NeedGoldRound": "189215",
-			"GainGold": "7378.221725",
-			"GainGoldRound": "7378"
-		},
-		{
-			"Level": "177",
-			"NeedGold": "191750.796209",
-			"NeedGoldRound": "191751",
-			"GainGold": "7384.734439",
-			"GainGoldRound": "7385"
-		},
-		{
-			"Level": "178",
-			"NeedGold": "194306.355234",
-			"NeedGoldRound": "194306",
-			"GainGold": "7391.25857",
-			"GainGoldRound": "7391"
-		},
-		{
-			"Level": "179",
-			"NeedGold": "196881.370026",
-			"NeedGoldRound": "196881",
-			"GainGold": "7397.794073",
-			"GainGoldRound": "7398"
-		},
-		{
-			"Level": "180",
-			"NeedGold": "199475.878772",
-			"NeedGoldRound": "199476",
-			"GainGold": "7404.340905",
-			"GainGoldRound": "7404"
-		},
-		{
-			"Level": "181",
-			"NeedGold": "202089.91952",
-			"NeedGoldRound": "202090",
-			"GainGold": "7410.899021",
-			"GainGoldRound": "7411"
-		},
-		{
-			"Level": "182",
-			"NeedGold": "204723.530181",
-			"NeedGoldRound": "204724",
-			"GainGold": "7417.468379",
-			"GainGoldRound": "7417"
-		},
-		{
-			"Level": "183",
-			"NeedGold": "207376.748528",
-			"NeedGoldRound": "207377",
-			"GainGold": "7424.048936",
-			"GainGoldRound": "7424"
-		},
-		{
-			"Level": "184",
-			"NeedGold": "210049.612203",
-			"NeedGoldRound": "210050",
-			"GainGold": "7430.64065",
-			"GainGoldRound": "7431"
-		},
-		{
-			"Level": "185",
-			"NeedGold": "212742.158711",
-			"NeedGoldRound": "212742",
-			"GainGold": "7437.243479",
-			"GainGoldRound": "7437"
-		},
-		{
-			"Level": "186",
-			"NeedGold": "215454.425428",
-			"NeedGoldRound": "215454",
-			"GainGold": "7443.857382",
-			"GainGoldRound": "7444"
-		},
-		{
-			"Level": "187",
-			"NeedGold": "218186.449596",
-			"NeedGoldRound": "218186",
-			"GainGold": "7450.482317",
-			"GainGoldRound": "7450"
-		},
-		{
-			"Level": "188",
-			"NeedGold": "220938.268329",
-			"NeedGoldRound": "220938",
-			"GainGold": "7457.118244",
-			"GainGoldRound": "7457"
-		},
-		{
-			"Level": "189",
-			"NeedGold": "223709.918611",
-			"NeedGoldRound": "223710",
-			"GainGold": "7463.765122",
-			"GainGoldRound": "7464"
-		},
-		{
-			"Level": "190",
-			"NeedGold": "226501.437299",
-			"NeedGoldRound": "226501",
-			"GainGold": "7470.422911",
-			"GainGoldRound": "7470"
-		},
-		{
-			"Level": "191",
-			"NeedGold": "229312.861124",
-			"NeedGoldRound": "229313",
-			"GainGold": "7477.091572",
-			"GainGoldRound": "7477"
-		},
-		{
-			"Level": "192",
-			"NeedGold": "232144.226691",
-			"NeedGoldRound": "232144",
-			"GainGold": "7483.771065",
-			"GainGoldRound": "7484"
-		},
-		{
-			"Level": "193",
-			"NeedGold": "234995.57048",
-			"NeedGoldRound": "234996",
-			"GainGold": "7490.461352",
-			"GainGoldRound": "7490"
-		},
-		{
-			"Level": "194",
-			"NeedGold": "237866.928848",
-			"NeedGoldRound": "237867",
-			"GainGold": "7497.162393",
-			"GainGoldRound": "7497"
-		},
-		{
-			"Level": "195",
-			"NeedGold": "240758.338031",
-			"NeedGoldRound": "240758",
-			"GainGold": "7503.874151",
-			"GainGoldRound": "7504"
-		},
-		{
-			"Level": "196",
-			"NeedGold": "243669.834141",
-			"NeedGoldRound": "243670",
-			"GainGold": "7510.596587",
-			"GainGoldRound": "7511"
-		},
-		{
-			"Level": "197",
-			"NeedGold": "246601.453174",
-			"NeedGoldRound": "246601",
-			"GainGold": "7517.329664",
-			"GainGoldRound": "7517"
-		},
-		{
-			"Level": "198",
-			"NeedGold": "249553.231003",
-			"NeedGoldRound": "249553",
-			"GainGold": "7524.073345",
-			"GainGoldRound": "7524"
-		},
-		{
-			"Level": "199",
-			"NeedGold": "252525.203385",
-			"NeedGoldRound": "252525",
-			"GainGold": "7530.827592",
-			"GainGoldRound": "7531"
-		},
-		{
-			"Level": "200",
-			"NeedGold": "255517.405959",
-			"NeedGoldRound": "255517",
-			"GainGold": "7537.592369",
-			"GainGoldRound": "7538"
+			"NeedGold": "1094255",
+			"NeedGoldRound": "1094255",
+			"GainGold": "22578",
+			"GainGoldRound": "22578"
 		}
 	]
 }
