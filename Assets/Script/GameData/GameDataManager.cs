@@ -11,6 +11,6 @@ public static class GameDataManager
         
         var loadedJson = Resources.Load<TextAsset>($"{pathName}.json"); 
         
-        // var vow = JsonUtility.FromJson<Type.GetType(pathName)>(loadedJson.ToString());
+        var vow = JsonUtility.FromJson<object>(loadedJson.ToString());
     }
 }
