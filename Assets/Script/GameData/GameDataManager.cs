@@ -2,14 +2,15 @@ using UnityEngine;
 
 public static class GameDataManager
 {
+    public static GoldBalanceGameData GoldBalanceGameData { get; private set; }
+    
     public static void Load()
     {
-        // string pathName = "vow";
-        // 
-        // var loadedJson = Resources.Load<TextAsset>($"Json/{pathName}"); 
-        // 
-        // TestData vow = JsonUtility.FromJson<TestData>(loadedJson.ToString());
-        // 
-        // Debug.Log(vow);
+        string pathName = "GoldBalance";
+        
+        var loadedJson = Resources.Load<TextAsset>($"Json/{pathName}"); 
+        
+        GoldBalanceGameData = JsonUtility.FromJson<GoldBalanceGameData>(loadedJson.ToString());
+        GoldBalanceGameData.SetData();
     }
 }
