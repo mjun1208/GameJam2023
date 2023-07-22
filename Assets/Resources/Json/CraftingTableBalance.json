@@ -1,0 +1,74 @@
+{
+  "DataList": [
+    {
+      "StarCount": "1",
+      "Level": "25",
+      "RewardJewelry": "2"
+    },
+    {
+      "StarCount": "2",
+      "Level": "50",
+      "RewardJewelry": "2"
+    },
+    {
+      "StarCount": "3",
+      "Level": "75",
+      "RewardJewelry": "2"
+    },
+    {
+      "StarCount": "4",
+      "Level": "100",
+      "RewardJewelry": "2"
+    },
+    {
+      "StarCount": "5",
+      "Level": "150",
+      "RewardJewelry": "2"
+    },
+    {
+      "StarCount": "1",
+      "Level": "200",
+      "RewardJewelry": "5"
+    },
+    {
+      "StarCount": "2",
+      "Level": "250",
+      "RewardJewelry": "5"
+    },
+    {
+      "StarCount": "3",
+      "Level": "300",
+      "RewardJewelry": "5"
+    },
+    {
+      "StarCount": "4",
+      "Level": "350",
+      "RewardJewelry": "5"
+    },
+    {
+      "StarCount": "5",
+      "Level": "400",
+      "RewardJewelry": "5"
+    },
+    {
+      "StarCount": "1",
+      "Level": "550",
+      "RewardJewelry": "10"
+    },
+    {
+      "StarCount": "2",
+      "Level": "700",
+      "RewardJewelry": "10"
+    },
+    {
+      "StarCount": "3",
+      "Level": "850",
+      "RewardJewelry": "10"
+    },
+    {
+      "StarCount": "1",
+      "Level": "1000",
+      "RewardJewelry": "20"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
+[Serializable]
 public class GoldBalance
 {
     public int Level;
@@ -10,6 +12,7 @@ public class GoldBalance
     public int GainGoldRound;
 }
 
+[Serializable]
 public class GoldBalanceGameData
 {
     public List<GoldBalance> DataList;
