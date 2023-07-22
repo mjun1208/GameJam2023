@@ -3,7 +3,7 @@ using UnityEngine;
 public class Animal : MonoBehaviour
 {
     public int Hp { get; set; }
-    public float Speed { get; set; } = 5f;
+    public float Speed { get; set; } = 0.5f;
     
     public bool IsDead { get; set; }
 

@@ -17,10 +17,6 @@ public class AnimalManager : MonoBehaviour
         _animal.gameObject.SetActive(false);
     }
 
-    private void Start()
-    {
-    }
-
     private void Update()
     {
         SpawnVow();
@@ -35,11 +31,14 @@ public class AnimalManager : MonoBehaviour
 
         vow = true;
         
-        await Task.Delay(Random.Range(100, 400));
+        await Task.Delay(1000);
         vow = false;
-        SpawnAnimal();
-        SpawnAnimal();
-        SpawnAnimal();
+
+        // 초 당 화면에 등장 오리 수
+        for (int i = 0; i < 2; i++)
+        {
+            SpawnAnimal();
+        }
     }
 
     private void SpawnAnimal()
@@ -68,15 +67,14 @@ public class AnimalManager : MonoBehaviour
         ReleaseAnimal(animal);
     }
     
-    // 해당 작업대와 가장 가까운 동물  
-    public Animal GetNearAnimal()
+    public Animal GetNearAnimal(Vector3 target)
     {
         var minDistance = float.MaxValue;
         Animal targetAnimal = null;
 
         foreach (var animal in _animals)
         {
-            var distance = Math.Abs(Vector3.Distance(Vector3.zero, animal.transform.position));
+            var distance = Math.Abs(Vector3.Distance(target, animal.transform.position));
 
             if (distance < minDistance)
             {
