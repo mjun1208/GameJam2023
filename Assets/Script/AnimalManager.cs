@@ -34,6 +34,7 @@ public class AnimalManager : MonoBehaviour
         await Task.Delay(1000);
         vow = false;
 
+        // 초 당 화면에 등장 오리 수
         for (int i = 0; i < 2; i++)
         {
             SpawnAnimal();

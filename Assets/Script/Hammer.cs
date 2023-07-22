@@ -59,6 +59,7 @@ public class Hammer : MonoBehaviour
         }
         
         this.transform.position = _targetAnimal.transform.position;
+        // 골드 획득량
         IngameManager.UserDataManager.Gold += GameDataManager.GoldBalanceGameData.GetGainGoldRound(_craftingTable.Level);
         Destroy(this.gameObject);
         IngameManager.AnimalManager.BlowAwayAnimal(_targetAnimal);

@@ -44,6 +44,7 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
 
         _isSpawnDelay = true;
         
+        // 해머 생성 딜레이 (제작 속도)
         await Task.Delay(1000);
         _isSpawnDelay = false;
 
