@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Hammer : MonoBehaviour
 {   
+    [SerializeField] private CraftingTable _craftingTable; 
     private float delay = 0.1f;
     private float time = 0f;
     
@@ -24,7 +25,7 @@ public class Hammer : MonoBehaviour
         }
         
         this.transform.position = targetAnimal.transform.position;
-        
+        IngameManager.UserDataManager.Gold += GameDataManager.GoldBalanceGameData.GetGainGoldRound(_craftingTable.Level);
         IngameManager.AnimalManager.BlowAwayAnimal(targetAnimal);
     }
 }
