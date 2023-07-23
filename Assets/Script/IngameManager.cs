@@ -28,7 +28,7 @@ public class IngameManager : MonoBehaviour
 
         AnimalManager = GameObject.Find("AnimalManager").GetComponent<AnimalManager>();
         UITopMenu = GameObject.Find("UITopMenu").GetComponent<UITopMenu>();
-        CraftingPopup = GameObject.Find("CraftingPopup").GetComponent<CraftingPopup>();
+        CraftingPopup = GameObject.Find("CraftingPopup").GetComponent<CraftingPopup>(); 
         CraftingPopup.Disable();
     }
 }
