@@ -11,6 +11,11 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
     private bool _isSpawnDelay = false;
     private List<Hammer> _hammerList = new List<Hammer>();
 
+    private float _createDelay = 5000;
+    private float _realFinalCreateDelay => _createDelay * IngameManager.UserDataManager.Value_HammerSpawnDelay;
+
+    private float _createTime = 0f;
+
     public int HammerCount => _hammerList.Count;
 
     private void Awake()
@@ -41,22 +46,17 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
 
     public async void SpawnHammer()
     {
-        if (_isSpawnDelay)
+        _createTime += Time.deltaTime;
+
+        if (_createTime > _realFinalCreateDelay)
         {
-            return;
+            _createTime = 0f;
+
+            var newHammer = GameObject.Instantiate(_baseHammer, this.transform.position, Quaternion.identity);
+            newHammer.gameObject.SetActive(true);
+            _hammerList.Add(newHammer);
         }
-
-        _isSpawnDelay = true;
-        
-        // 해머 생성 딜레이 (제작 속도)
-        await Task.Delay(5000);
-        _isSpawnDelay = false;
-
-        var newHammer = GameObject.Instantiate(_baseHammer, this.transform.position, Quaternion.identity);
-        newHammer.gameObject.SetActive(true);
-        _hammerList.Add(newHammer);
     }
-
     public Hammer PlayerGetHammer()
     {
         if (HammerCount == 0)

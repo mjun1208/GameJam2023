@@ -13,6 +13,9 @@ public class AnimalManager : MonoBehaviour
     private bool vow = false;
     private int _limitCount = 25;
 
+    private int _spawnCount = 1;
+    private int _realFinalSpawnCount => _spawnCount + IngameManager.UserDataManager.Value_AddAnimal;
+
     private void Awake()
     {
         _animal.gameObject.SetActive(false);
@@ -36,7 +39,7 @@ public class AnimalManager : MonoBehaviour
         vow = false;
 
         // 초 당 화면에 등장 오리 수
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < _realFinalSpawnCount; i++)
         {
             SpawnAnimal();
         }
