@@ -14535,7 +14535,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2135532651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3858201082952602244}
+        m_TargetAssemblyTypeName: QuestSlotListPanel, Assembly-CSharp
+        m_MethodName: ActiveAutomacally
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2135532651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14698,6 +14710,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1226466794}
     m_Modifications:
+    - target: {fileID: 3858201082109330693, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 92.696
+      objectReference: {fileID: 0}
     - target: {fileID: 3858201082251543016, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -14786,8 +14802,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuestPopup
       objectReference: {fileID: 0}
+    - target: {fileID: 3858201082251543017, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858201082735649676, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858201082735649676, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858201082735649676, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 456.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858201082735649676, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 228.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858201082735649676, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -46.348
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+--- !u!114 &3858201082952602244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8226780834195569427, guid: d9d9da2ca6969424989a3269275669f3, type: 3}
+  m_PrefabInstance: {fileID: 3858201082952602243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7433b7dc1dddda649a200e54bd850f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6740092843802845484
 PrefabInstance:
   m_ObjectHideFlags: 0

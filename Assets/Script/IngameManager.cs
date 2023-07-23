@@ -5,6 +5,7 @@ public class IngameManager : MonoBehaviour
     public static IngameManager Instance { get; set; }
     public static UserDataManager UserDataManager { get; private set; }
     public static AnimalManager AnimalManager { get; private set; }
+    public static QuestManager QuestManager { get; private set; }
     public static CraftingPopup CraftingPopup { get; private set; }
     public static UITopMenu UITopMenu { get; private set; }
     
@@ -23,6 +24,7 @@ public class IngameManager : MonoBehaviour
         GameDataManager.Load();
 
         UserDataManager = new UserDataManager();
+        QuestManager = new QuestManager();
 
         AnimalManager = GameObject.Find("AnimalManager").GetComponent<AnimalManager>();
         UITopMenu = GameObject.Find("UITopMenu").GetComponent<UITopMenu>();
