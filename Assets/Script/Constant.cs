@@ -4,5 +4,5 @@ using UnityEngine;
 
 public static class Constant
 {
-    public const float DragSpeed = 0.0005f;
+    public const float DragSpeed = 0.005f;
 }
