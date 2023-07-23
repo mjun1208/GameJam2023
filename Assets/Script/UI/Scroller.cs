@@ -9,8 +9,7 @@ public class Scroller : MonoBehaviour
     private bool _onDrag = false;
 
     private Vector3 _prevMousePosition;
-
-
+    
     public void Update()
     {
         if (Input.GetMouseButtonDown(0))
