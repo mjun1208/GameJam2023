@@ -2,17 +2,17 @@ public class UserDataManager
 {
     // 이것들만 저장하면 행복해질까..?
 
-    public int Gold { get; set; } = 0;
+    public int Gold { get; set; } = 10000;
     public int Jewelry { get; set; }
     
     public int Stage { get; set; }
 
 
     //여긴.. 지옥. 이다.
-    public int Value_AddAnimal { get; private set; }
+    public int Value_AddAnimal { get; private set; } = 0;
     public float Value_HammerSpawnDelay { get; private set; } = 1;
     public float Value_AnimalGold { get; private set; } = 1;
-    public int Value_SpawnPlayer { get; private set; } = 0;
+    public int Value_SpawnPlayer { get; private set; } = 1;
     public float Value_PlayerSpeed { get; private set; } = 1;
 
     public void Purchase(Quest quest)

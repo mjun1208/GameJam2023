@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class CraftingTable : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private Hammer _baseHammer;
+    [SerializeField] private TMP_Text _countText;
+    [SerializeField] private Image _timeImage;
     public int Level { get; set; } = 1;
     private bool _isSpawnDelay = false;
     private List<Hammer> _hammerList = new List<Hammer>();
@@ -47,12 +50,15 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
     private void Update()
     {
         SpawnHammer();
+        _countText.text = $"{HammerCount}개";
     }
 
     public async void SpawnHammer()
     {
         _createTime += Time.deltaTime;
 
+        _timeImage.fillAmount = _createTime / _createDelay * IngameManager.UserDataManager.Value_HammerSpawnDelay;
+    
         if (_createTime > _createDelay * IngameManager.UserDataManager.Value_HammerSpawnDelay)
         {
             _createTime = 0f;
