@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     private bool _hasHammer = false;
     private Animal _targetAnimal;
 
+    private float _playerSpeed = 5f;
+    private float _realfinalPlayerSpeed => _playerSpeed * IngameManager.UserDataManager.Value_PlayerSpeed;
+
     private void Update()
     {
         if (_hasHammer)
@@ -61,7 +64,7 @@ public class Player : MonoBehaviour
         var dir = targetHammer.transform.position - this.transform.position;
         dir = dir.normalized;
 
-        this.transform.position += dir * 5f * Time.deltaTime;
+        this.transform.position += dir * _realfinalPlayerSpeed * Time.deltaTime;
         
         /////
 
@@ -96,7 +99,7 @@ public class Player : MonoBehaviour
         var dir = _targetAnimal.transform.position - this.transform.position;
         dir = dir.normalized;
 
-        this.transform.position += dir * 5f * Time.deltaTime;
+        this.transform.position += dir * _realfinalPlayerSpeed * Time.deltaTime;
         
         /////
 
@@ -120,7 +123,7 @@ public class Player : MonoBehaviour
         
         this.transform.position = _targetAnimal.transform.position;
         // 골드 획득량
-        IngameManager.UserDataManager.Gold += GameDataManager.GoldBalanceGameData.GetGainGoldRound(_craftingTable.Level);
+        IngameManager.UserDataManager.Gold += Mathf.RoundToInt(GameDataManager.GoldBalanceGameData.GetGainGoldRound(_craftingTable.Level) * IngameManager.UserDataManager.Value_AnimalGold);
         IngameManager.AnimalManager.BlowAwayAnimal(_targetAnimal);
     }
 }
