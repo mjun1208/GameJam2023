@@ -53,6 +53,9 @@ public class QuestSlotPanel : MonoBehaviour
 
     public void TryPurchase()
     {
+        if (purchased)
+            return;
+
         if (IngameManager.UserDataManager.Gold >= curQuest.NeedGold)
         { 
             IngameManager.UserDataManager.Gold -= curQuest.NeedGold;
