@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Task = System.Threading.Tasks.Task;
@@ -31,11 +32,11 @@ public class AnimalManager : MonoBehaviour
 
         vow = true;
         
-        await Task.Delay(1000);
+        await Task.Delay(2000);
         vow = false;
 
         // 초 당 화면에 등장 오리 수
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 1; i++)
         {
             SpawnAnimal();
         }
@@ -50,7 +51,7 @@ public class AnimalManager : MonoBehaviour
         
         var dir = Random.Range(0, 2) == 0 ? 1 : -1;
 
-        var newAnimal = Instantiate(_animal, new Vector3(Random.Range(-5f, 5f), 15 * dir, 0), Quaternion.identity);
+        var newAnimal = Instantiate(_animal, new Vector3(Random.Range(-5f, 5f), 11 * dir, 0), Quaternion.identity);
         newAnimal.gameObject.SetActive(true);
         _animals.Add(newAnimal);
     }
@@ -63,7 +64,12 @@ public class AnimalManager : MonoBehaviour
 
     public async void BlowAwayAnimal(Animal animal)
     {
-        // await 
+        Sequence seq = DOTween.Sequence();
+        seq.Join(animal.transform.DOShakeRotation(2f, 1000f));
+        seq.Join(animal.transform.DOMoveX(Random.Range(-10,10), 1f));
+        seq.Join(animal.transform.DOMoveY(Random.Range(-10,10), 1f));
+
+        await seq.Play().AsyncWaitForCompletion();
         ReleaseAnimal(animal);
     }
     

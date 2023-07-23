@@ -35,5 +35,7 @@ public class Scroller : MonoBehaviour
         _prevMousePosition = Input.mousePosition;
         
         _mainCamera.transform.position += new Vector3(0, -delta.y * Constant.DragSpeed, 0);
+        float clampY = Math.Clamp(_mainCamera.transform.position.y, -21, 21);
+        _mainCamera.transform.position = new Vector3(_mainCamera.transform.position.x, clampY, _mainCamera.transform.position.z);
     }
 }
