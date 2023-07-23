@@ -35,7 +35,7 @@ public class AnimalManager : MonoBehaviour
 
         vow = true;
         
-        await Task.Delay(2000);
+        await Task.Delay(3000);
         vow = false;
 
         // 초 당 화면에 등장 오리 수
@@ -73,9 +73,10 @@ public class AnimalManager : MonoBehaviour
     public async void BlowAwayAnimal(Animal animal)
     {
         Sequence seq = DOTween.Sequence();
-        seq.Join(animal.transform.DOShakeRotation(2f, 1000f));
+        seq.Join(animal.transform.DORotate(new Vector3(0, 0 , Random.Range(-360f, 360f)), 1f));
         seq.Join(animal.transform.DOMoveX(Random.Range(-10,10), 1f));
         seq.Join(animal.transform.DOMoveY(Random.Range(-10,10), 1f));
+        seq.Join(animal.transform.DOScale(5, 1f));
 
         await seq.Play().AsyncWaitForCompletion();
         ReleaseAnimal(animal);
@@ -88,7 +89,7 @@ public class AnimalManager : MonoBehaviour
 
         foreach (var animal in _animals)
         {
-            if (animal.IsTargeting)
+            if (animal.IsTargeting || animal.IsDead)
                 continue;
 
             var distance = Math.Abs(Vector3.Distance(target, animal.transform.position));
@@ -100,7 +101,11 @@ public class AnimalManager : MonoBehaviour
             }
         }
 
-        targetAnimal.IsTargeting = true;
+        if (targetAnimal != null)
+        {
+            targetAnimal.IsTargeting = true;
+        }
+
         return targetAnimal;
     }
 }

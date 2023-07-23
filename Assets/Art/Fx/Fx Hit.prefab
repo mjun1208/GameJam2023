@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5238715461897774953}
   - component: {fileID: 5238715461897774952}
   - component: {fileID: 5238715461897774955}
+  - component: {fileID: 2648372143204608918}
   m_Layer: 0
   m_Name: Fx Hit
   m_TagString: Untagged
@@ -4871,6 +4872,20 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &2648372143204608918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5238715461897774954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f137af8bb6afe44a152c21e305198b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  _particle: {fileID: 5238715461897774952}
 --- !u!1 &5620930414299521866
 GameObject:
   m_ObjectHideFlags: 0

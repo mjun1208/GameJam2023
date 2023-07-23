@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Animal : MonoBehaviour
@@ -8,6 +9,13 @@ public class Animal : MonoBehaviour
     public bool IsDead { get; set; }
 
     public bool IsTargeting { get; set; }
+
+    public List<Sprite> sprite = new List<Sprite>();
+
+    public void Init()
+    {
+        
+    }
 
     public void Update()
     {

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Player : MonoBehaviour
     
     [SerializeField] private Animation _animation;
     [SerializeField] private CraftingTable _craftingTable;
+    [SerializeField] private Effect _effect;
+
+    private Queue<Effect> _effectPool = new Queue<Effect>();
     
     private bool _hasHammer = false;
     private Animal _targetAnimal;
@@ -118,12 +122,37 @@ public class Player : MonoBehaviour
         {
             return;
         }
-        
+        _targetAnimal.IsDead = true;
         _hasHammer = false;
         
         this.transform.position = _targetAnimal.transform.position;
+        SpawnEffect(_targetAnimal.transform.position);
         // 골드 획득량
         IngameManager.UserDataManager.Gold += Mathf.RoundToInt(GameDataManager.GoldBalanceGameData.GetGainGoldRound(_craftingTable.Level) * IngameManager.UserDataManager.Value_AnimalGold);
         IngameManager.AnimalManager.BlowAwayAnimal(_targetAnimal);
+
+        _targetAnimal = null;
+    }
+
+    private void SpawnEffect(Vector3 position)
+    {
+        if (_effectPool.Count > 0)
+        {
+            var vow = _effectPool.Dequeue();
+            vow.Player = this;
+            vow.Init(position);
+        }
+        else
+        {
+            var vow = GameObject.Instantiate(_effect);
+            vow.Player = this;
+            vow.Init(position);
+        }
+    }
+
+    public void LetsGoPool(Effect effect)
+    {
+        effect.gameObject.SetActive(false);
+        _effectPool.Enqueue(effect);
     }
 }

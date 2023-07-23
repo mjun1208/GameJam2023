@@ -10,6 +10,8 @@ public class UserDataManager
 
     //여긴.. 지옥. 이다.
     public int Value_AddAnimal { get; private set; } = 0;
+
+    public bool wow { get; private set; } = false;
     public float Value_HammerSpawnDelay { get; private set; } = 1;
     public float Value_AnimalGold { get; private set; } = 1;
     public int Value_SpawnPlayer { get; private set; } = 1;
@@ -23,7 +25,8 @@ public class UserDataManager
                 Value_AddAnimal += (int)quest.GrowValue;
                 break;
             case QuestType.HammerSpawnDelay:
-                Value_HammerSpawnDelay *= (int)quest.GrowValue;
+                wow = true;
+                //Value_HammerSpawnDelay *= (int)quest.GrowValue;
                 break;
             case QuestType.AnimalGold:
                 Value_AnimalGold += (int)quest.GrowValue;
