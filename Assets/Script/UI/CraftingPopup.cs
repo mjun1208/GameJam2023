@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CraftingPopup : MonoBehaviour
 {
@@ -10,9 +12,17 @@ public class CraftingPopup : MonoBehaviour
     [SerializeField] private TMP_Text _levelText;
     [SerializeField] private TMP_Text _levelUpCost;
     [SerializeField] private GameObject DisableButton;
+    [SerializeField] private List<Star> _starList;
+    
+    [SerializeField] private GameObject _levelUpButton;
+    [SerializeField] private GameObject _maxText;
 
+    [SerializeField] private Slider _expProgressBar;
+    
     private RectTransform _rectTransform;
     private CraftingTable _craftingTable;
+
+    private bool IsMaxLevel = false;
     
     private void Awake()
     {
@@ -28,6 +38,18 @@ public class CraftingPopup : MonoBehaviour
 
         UpdateStars();
 
+        var nextStarLevel  = GameDataManager.CraftingTableBalanceGameData.GetNextLevel(_craftingTable.Level);
+        int currentDataLevel = 0;
+        if (GameDataManager.CraftingTableBalanceGameData.GetData(_craftingTable.Level) != null)
+        {
+            currentDataLevel = GameDataManager.CraftingTableBalanceGameData.GetData(_craftingTable.Level).Level;
+        }
+
+        _expProgressBar.value = (float)(_craftingTable.Level - currentDataLevel) / (float)(nextStarLevel - currentDataLevel);
+        IsMaxLevel = _craftingTable.Level == GameDataManager.GoldBalanceGameData.MaxLevel;
+        _levelUpButton.SetActive(!IsMaxLevel);
+        _maxText.SetActive(IsMaxLevel);
+        
         Enable();
     }
 
@@ -48,7 +70,22 @@ public class CraftingPopup : MonoBehaviour
 
     private void UpdateStars()
     {
-        
+        var data = GameDataManager.CraftingTableBalanceGameData.GetData(_craftingTable.Level);
+
+        if (data == null)
+        {
+            for (int i = 0; i < _starList.Count; i++)
+            {
+                _starList[i].IsActive = false;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < _starList.Count; i++)
+            {
+                _starList[i].IsActive = i + 1 <= data.StarCount;
+            }
+        }
     }
 
     public void OnClickLevelUp()
@@ -62,6 +99,10 @@ public class CraftingPopup : MonoBehaviour
         IngameManager.UserDataManager.Gold -= needGold;
         _craftingTable.LevelUp();
         SetInfo(_craftingTable);
+
+        IsMaxLevel = _craftingTable.Level == GameDataManager.GoldBalanceGameData.MaxLevel;
+        _levelUpButton.SetActive(!IsMaxLevel);
+        _maxText.SetActive(IsMaxLevel);
     }
 
     public void Enable()

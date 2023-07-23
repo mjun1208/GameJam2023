@@ -17,10 +17,29 @@ public class CraftingTableBalanceGameData
 
     public CraftingTableBalance GetData(int currentLevel)
     {
-        int lastDataLevel = DataList.Where(x => x.Level < currentLevel).Max(x => x.Level);
+        var vow = DataList.Where(x => x.Level <= currentLevel);
+        if (vow.Count() == 0)
+        {
+            return null;
+        }
+        
+        int lastDataLevel = DataList.Where(x => x.Level <= currentLevel).Max(x => x.Level);
         var data = DataList.Find(x=> x.Level == lastDataLevel);
 
         return data;
+    }
+
+    public int GetNextLevel(int currentLevel)
+    {
+        var vow = DataList.Where(x =>  x.Level > currentLevel);
+        if (vow.Count() == 0)
+        {
+            return 0;
+        }
+        
+        int nextDataLevel = DataList.Where(x => x.Level > currentLevel).Min(x => x.Level);
+
+        return nextDataLevel;
     }
 
     public int GetRewardJewelry(int level)

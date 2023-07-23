@@ -11,7 +11,7 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
     private bool _isSpawnDelay = false;
     private List<Hammer> _hammerList = new List<Hammer>();
 
-    private float _createDelay = 5000;
+    private float _createDelay = 5;
     private float _realFinalCreateDelay => _createDelay * IngameManager.UserDataManager.Value_HammerSpawnDelay;
 
     private float _createTime = 0f;
@@ -25,6 +25,11 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
 
     public void LevelUp()
     {
+        if (Level == GameDataManager.GoldBalanceGameData.MaxLevel)
+        {
+            return;
+        }
+        
         Level += 1;
 
         int reward = GameDataManager.CraftingTableBalanceGameData.GetRewardJewelry(Level);
@@ -48,7 +53,7 @@ public class CraftingTable : MonoBehaviour, IPointerClickHandler
     {
         _createTime += Time.deltaTime;
 
-        if (_createTime > _realFinalCreateDelay)
+        if (_createTime > _createDelay * IngameManager.UserDataManager.Value_HammerSpawnDelay)
         {
             _createTime = 0f;
 
