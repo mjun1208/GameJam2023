@@ -21,7 +21,7 @@ public class PlayerList : MonoBehaviour
 
     void AddIfRequired()
     {
-        if (curPlayerCount < IngameManager.UserDataManager.Value_AddAnimal)
+        if (curPlayerCount < IngameManager.UserDataManager.Value_SpawnPlayer)
         {
             var player = Instantiate(prefab);
             player.gameObject.SetActive(true);
