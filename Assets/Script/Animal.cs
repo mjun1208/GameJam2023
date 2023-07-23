@@ -7,6 +7,8 @@ public class Animal : MonoBehaviour
     
     public bool IsDead { get; set; }
 
+    public bool IsTargeting { get; set; }
+
     public void Update()
     {
         Move();

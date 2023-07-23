@@ -62,6 +62,11 @@ public class AnimalManager : MonoBehaviour
     private void ReleaseAnimal(Animal animal)
     {
         _animals.Remove(animal);
+        if (animal == null || animal.gameObject == null)
+        {
+            return;
+        }
+
         Destroy(animal.gameObject);
     }
 
@@ -83,6 +88,9 @@ public class AnimalManager : MonoBehaviour
 
         foreach (var animal in _animals)
         {
+            if (animal.IsTargeting)
+                continue;
+
             var distance = Math.Abs(Vector3.Distance(target, animal.transform.position));
 
             if (distance < minDistance)
@@ -92,6 +100,7 @@ public class AnimalManager : MonoBehaviour
             }
         }
 
+        targetAnimal.IsTargeting = true;
         return targetAnimal;
     }
 }
